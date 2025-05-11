@@ -6,8 +6,6 @@ public class Main {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         Scanner scanner = new Scanner(System.in);
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         int choice;
         do {
             System.out.println("+____________________________________________________________________+");
@@ -55,7 +53,7 @@ public class Main {
                 case 0:
                     System.out.println("Exiting...");
                 default:
-                    System.out.println("Invalid Choice! (Please enter 1/ 2/ 3/ 4/ 0): ");
+                    System.out.println("Invalid Choice! (Please enter (1/ 2/ 3/ 4/ 0): ");
 
 
 
